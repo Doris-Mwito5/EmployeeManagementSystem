@@ -1,7 +1,7 @@
 import datetime
 import calendar
 
-class PayrollManagement():
+class PayrollManagement:
     
     def calculate_payroll(self,employees):
         
@@ -9,7 +9,7 @@ class PayrollManagement():
         print("=========================")
         
         for employee in employees:
-            print("Employee Name : {}\nEmployee ID : {}".format(self.name, self.id))
+            print("Employee Name : {}\nEmployee ID : {}".format(employee.name, employee.id))
             print("Amount : {}".format(employee.calculate_payroll()))
             print("================================================")
             
