@@ -6,7 +6,7 @@ class Peformance:
         
         for employee in employees:
             status = employee.work(hours)
-            print(f"{Employee.name} : {status}")
+            print(f"{employee.name} : {status}")
             print("===========================")
         
 class ManagerRole:
